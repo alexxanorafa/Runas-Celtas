@@ -1,16 +1,13 @@
-// ========== CÓDIGO DO MENU ==========
-document.addEventListener("DOMContentLoaded", function() {
+    // ============ SISTEMA DE MENU ============
     const menuIcon = document.getElementById("menuIcon");
     const menu = document.getElementById("menu");
 
-    // Abrir/Fechar menu
     menuIcon.addEventListener("click", function(e) {
         e.stopPropagation();
         menu.classList.toggle("active");
         menuIcon.classList.toggle("active");
     });
 
-    // Fechar menu ao clicar fora
     document.addEventListener("click", function(e) {
         if (!menu.contains(e.target) && !menuIcon.contains(e.target)) {
             menu.classList.remove("active");
@@ -18,17 +15,14 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    // Animar itens do menu
     document.querySelectorAll(".menu-item").forEach(item => {
         item.addEventListener("mouseenter", function() {
             this.style.transform = "translateY(-3px)";
         });
-        
         item.addEventListener("mouseleave", function() {
             this.style.transform = "translateY(0)";
         });
     });
-});
 
 const runas = [
     { 
@@ -162,4 +156,4 @@ function sortearRunas() {
           container.innerHTML += `<div class="runa"><div class="runa-title">${runa.symbol}</div></div>`;
           resultContainer.innerHTML += `<h3>${runa.title}</h3><p>${runa.meaning}</p>`;
         });
-      }
+}
