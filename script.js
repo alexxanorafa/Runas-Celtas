@@ -27,102 +27,102 @@
 const runas = [
     { 
         symbol: "ᚁ", 
-        title: "Beith", 
+        title: "Beith - Novos Começos, Renascimento e Purificação", 
         meaning: "Beith representa novos começos, renascimento e purificação. Está ligada à bétula, uma árvore associada à renovação e ao crescimento. Simboliza a clareza mental e a necessidade de deixar o passado para trás, abrindo espaço para novas oportunidades."
     },
     { 
         symbol: "ᚂ", 
-        title: "Luis", 
+        title: "Luis - Proteção Espiritual, Intuição e Cura", 
         meaning: "Luis é a runa da proteção espiritual, intuição e cura. Está associada ao sorveira, que na tradição celta protege contra energias negativas. Indica um momento de fortalecimento psíquico e desenvolvimento da percepção intuitiva."
     },
     { 
         symbol: "ᚃ", 
-        title: "Fearn", 
+        title: "Fearn - Força, Resistência e Adaptação", 
         meaning: "Fearn está ligada ao amieiro, árvore que cresce na água e simboliza força interior, resistência e adaptação. Essa runa representa a habilidade de se manter firme diante dos desafios, utilizando sabedoria emocional para superá-los."
     },
     { 
         symbol: "ᚄ", 
-        title: "Saille", 
+        title: "Saille - Conexão Espiritual e Adaptação Subconsciente", 
         meaning: "Saille, associada ao salgueiro, simboliza a conexão com a espiritualidade e o mundo subconsciente. Representa sonhos, visões e a capacidade de se adaptar às mudanças emocionais e espirituais."
     },
     { 
         symbol: "ᚅ", 
-        title: "Nion", 
+        title: "Nion - Transformações e Ciclos da Vida", 
         meaning: "Nion é a runa das transformações e dos ciclos da vida. Ligada ao freixo, representa crescimento e maturidade espiritual. Essa runa sugere a necessidade de aceitar as mudanças naturais da vida e aprender com elas."
     },
     { 
         symbol: "ᚆ", 
-        title: "Uath", 
+        title: "Uath - Mistério, Transição e Proteção Espiritual", 
         meaning: "Uath representa mistério, transição e proteção contra forças desconhecidas. Associada ao espinheiro, essa runa simboliza tanto desafios inesperados quanto a proteção espiritual que nos guia nesses momentos."
     },
     { 
         symbol: "ᚇ", 
-        title: "Duir", 
+        title: "Duir - Força, Estabilidade e Perseverança", 
         meaning: "Duir está ligada ao carvalho, uma árvore símbolo de força, estabilidade e resistência. Essa runa traz uma mensagem de perseverança e coragem para enfrentar qualquer obstáculo, indicando a importância da paciência e do conhecimento ancestral."
     },
     { 
         symbol: "ᚈ", 
-        title: "Tinne", 
+        title: "Tinne - Coragem, Determinação e Ação", 
         meaning: "Tinne é a runa da coragem, determinação e ação. Representa o azevinho, uma árvore de proteção e força. Essa runa encoraja a tomar atitudes e agir com confiança para superar desafios e conquistar objetivos."
     },
     { 
         symbol: "ᚉ", 
-        title: "Coll", 
+        title: "Coll - Sabedoria, Intuição e Conhecimento Profundo", 
         meaning: "Coll está associada à aveleira e simboliza a sabedoria, a intuição e o conhecimento profundo. Essa runa sugere um momento de aprendizado e descoberta, indicando que respostas importantes podem surgir através da introspecção e da conexão espiritual."
     },
     { 
         symbol: "ᚊ", 
-        title: "Quert", 
+        title: "Quert - Cura, Equilíbrio e Renovação", 
         meaning: "Quert representa cura, equilíbrio e renovação. Ligada à macieira, uma árvore sagrada para os celtas, essa runa simboliza a necessidade de buscar harmonia na vida, cuidar da saúde e encontrar momentos de paz."
     },
     { 
         symbol: "ᚋ", 
-        title: "Muin", 
+        title: "Muin - Comunicação, Verdade e Autoexpressão", 
         meaning: "Muin simboliza comunicação, autoexpressão e verdade. Representa a videira, que na tradição celta está associada à criatividade e ao poder das palavras. Essa runa indica a importância de falar a verdade e se expressar de forma clara e sincera."
     },
     { 
         symbol: "ᚌ", 
-        title: "Gort", 
+        title: "Gort - Prosperidade, Abundância e Crescimento", 
         meaning: "Gort está ligada à hera e simboliza prosperidade, abundância e crescimento contínuo. Representa a capacidade de superar dificuldades e expandir-se, tanto material quanto espiritualmente."
     },
     { 
         symbol: "ᚍ", 
-        title: "Ngetal", 
+        title: "Ngetal - Cura Física, Renovação e Bem-Estar", 
         meaning: "Ngetal é a runa da cura física, renovação e bem-estar. Ligada ao junco, simboliza a flexibilidade e a capacidade de se curar tanto no corpo quanto na mente. Indica um momento de recuperação e fortalecimento."
     },
     { 
         symbol: "ᚎ", 
-        title: "Straif", 
+        title: "Straif - Desafios, Crescimento e Aprendizado", 
         meaning: "Straif representa desafios, crescimento e aprendizado através da adversidade. Associada ao sabugueiro, essa runa sugere a necessidade de enfrentar dificuldades como oportunidades de transformação e amadurecimento."
     },
     { 
         symbol: "ᚏ", 
-        title: "Ruis", 
+        title: "Ruis - Reflexão, Finalizações e Renovação Espiritual", 
         meaning: "Ruis está ligada à amoreira e simboliza finalizações, introspecção e preparação para novos ciclos. Indica um momento de reflexão profunda, encerramento de ciclos e renovação espiritual."
     },
     { 
         symbol: "ᚐ", 
-        title: "Ailm", 
+        title: "Ailm - Força Espiritual, Visão e Clareza", 
         meaning: "Ailm representa força espiritual, visão e conexão com o divino. Associada ao pinheiro, essa runa simboliza crescimento elevado e clareza para enxergar o caminho certo na vida."
     },
     { 
         symbol: "ᚑ", 
-        title: "Onn", 
+        title: "Onn - Mudanças Inesperadas, Flexibilidade e Adaptação", 
         meaning: "Onn simboliza mudanças inesperadas, flexibilidade e adaptação. Ligada ao tojo, essa runa sugere que a vida pode trazer reviravoltas, mas que a capacidade de se ajustar a novas realidades será a chave para o sucesso."
     },
     { 
         symbol: "ᚒ", 
-        title: "Ur", 
+        title: "Ur - Resiliência, Transformação e Conexão com a Terra", 
         meaning: "Ur representa resiliência, transformação e ligação com a terra. Associada ao urze, essa runa indica a necessidade de se conectar com a natureza e encontrar força nos ciclos naturais da vida."
     },
     { 
         symbol: "ᚓ", 
-        title: "Eadha", 
+        title: "Eadha - Superação, Renascimento e Renovação", 
         meaning: "Eadha simboliza superação de obstáculos, renascimento e renovação. Ligada ao álamo, essa runa sugere que momentos difíceis estão chegando ao fim e que novas oportunidades estão a caminho."
     },
     { 
         symbol: "ᚔ", 
-        title: "Idho", 
+        title: "Idho - Fim de Ciclo, Conexão Ancestral e Renascimento Espiritual", 
         meaning: "Idho é a runa do fim de um ciclo, da conexão com os ancestrais e do renascimento espiritual. Representa o teixo, uma árvore que simboliza vida após a morte e transformação profunda. Indica que é hora de deixar para trás o que não serve mais e seguir para um novo caminho com sabedoria."
     }
 ];
